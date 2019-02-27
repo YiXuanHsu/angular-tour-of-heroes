@@ -9,10 +9,10 @@ import { HeroService } from '../hero.service';
 })
 export class HeroesComponent implements OnInit {
   //hero = 'Windstorm'; // hero 屬性
-  selectedHero: Hero;
+  /*selectedHero: Hero;
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
-  }
+  }*/
   heroes: Hero[];
 
   constructor(private heroService: HeroService) { }
